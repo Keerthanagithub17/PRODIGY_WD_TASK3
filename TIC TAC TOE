@@ -1,0 +1,154 @@
+# 🎮 PRODIGY_WD_TASK3 - Neon Tic Tac Toe Game
+
+## 📌 Project Overview
+
+This project is **Task 3** of my **Web Development Internship at Prodigy Infotech**.
+
+The project is an interactive **Tic Tac Toe Web Application** developed using **HTML, CSS, and JavaScript**.
+
+The application allows users to play the classic Tic Tac Toe game through an interactive 3×3 game board. It includes multiple game modes, score tracking, turn indicators, winner detection, draw detection, and game reset functionality.
+
+The project features a modern **Neon Battle Arena-inspired user interface** with a dark theme, glowing cyan accents, and purple highlights.
+
+---
+
+## 🎯 Task Objective
+
+The objective of this task is to create an interactive Tic Tac Toe web application where users can:
+
+- Play Tic Tac Toe on a 3×3 game board
+- Take turns between Player X and Player O
+- Interact with the game board
+- Detect winning combinations
+- Detect draw conditions
+- Restart the game
+- Track player scores
+
+---
+
+## ✨ Features
+
+### 🎮 Interactive Tic Tac Toe Board
+
+Users can interact with a 3×3 game board by clicking on the cells to make their moves.
+
+---
+
+### 👥 Player vs Player Mode
+
+Two players can play against each other.
+
+- Player 1 plays as **X**
+- Player 2 plays as **O**
+- Players take turns during the game
+
+---
+
+### 🤖 Player vs AI Mode
+
+Users can play against an AI opponent.
+
+The application handles the player's moves and the AI's moves dynamically.
+
+---
+
+### 🔄 Turn Indicator
+
+The game displays the current player's turn.
+
+For example:
+
+- Player X's Turn
+- Player O's Turn
+
+This helps users understand whose turn it is during gameplay.
+
+---
+
+### 🏆 Winner Detection
+
+The application automatically checks for winning combinations after every move.
+
+Winning combinations include:
+
+- Horizontal rows
+- Vertical columns
+- Diagonal combinations
+
+Once a player wins, the game detects and displays the winner.
+
+---
+
+### 🤝 Draw Detection
+
+If all cells are filled and no player has achieved a winning combination, the game detects a draw.
+
+---
+
+### 📊 Score Tracking
+
+The application keeps track of the scores of both players.
+
+- Player X Score
+- Player O Score
+
+The score updates dynamically after each game.
+
+---
+
+### 🆕 New Game
+
+The **New Game** button clears the current game board and starts a new round.
+
+---
+
+### ♻️ Reset Score
+
+The **Reset Score** option resets the scores of both players and allows users to start again.
+
+---
+
+### 🎨 Modern Neon User Interface
+
+The project features a modern gaming-inspired interface with:
+
+- Dark background
+- Neon cyan accents
+- Purple highlights
+- Glowing elements
+- Interactive buttons
+- Smooth transitions
+- Modern game-style layout
+
+---
+
+### 📱 Responsive Design
+
+The application is designed to provide a good user experience across different screen sizes.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structure of the application |
+| CSS3 | Styling and responsive design |
+| JavaScript | Game logic and interactivity |
+| Git | Version control |
+| GitHub | Code hosting |
+| GitHub Pages | Project deployment |
+
+---
+
+## 📂 Project Structure
+
+```text
+PRODIGY_WD_TASK3/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+Live demo : 
