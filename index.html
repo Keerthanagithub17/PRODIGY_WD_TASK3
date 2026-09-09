@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="game-icon">✕</div>
+            <div>
+                <h1>TIC TAC TOE</h1>
+                <p>NEON BATTLE ARENA</p>
+            </div>
+        </div>
+
+        <div class="mode-buttons">
+            <button id="pvpBtn" class="mode active">👥 PLAYER VS PLAYER</button>
+            <button id="aiBtn" class="mode">🤖 PLAYER VS AI</button>
+        </div>
+
+        <div class="score-board">
+
+            <div class="score player-x">
+                <span>PLAYER X</span>
+                <strong id="scoreX">0</strong>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="score player-o">
+                <span>PLAYER O</span>
+                <strong id="scoreO">0</strong>
+            </div>
+
+        </div>
+
+        <div class="turn">
+            <span id="turnText">PLAYER X'S TURN</span>
+        </div>
+
+        <div class="board" id="board">
+
+            <button class="cell" data-index="0"></button>
+            <button class="cell" data-index="1"></button>
+            <button class="cell" data-index="2"></button>
+
+            <button class="cell" data-index="3"></button>
+            <button class="cell" data-index="4"></button>
+            <button class="cell" data-index="5"></button>
+
+            <button class="cell" data-index="6"></button>
+            <button class="cell" data-index="7"></button>
+            <button class="cell" data-index="8"></button>
+
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <button id="restartBtn" class="restart">
+            🔄 NEW GAME
+        </button>
+
+        <button id="resetScoreBtn" class="reset-score">
+            RESET SCORE
+        </button>
+
+        <footer>
+            PRODIGY INFOTECH • TASK 3
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
