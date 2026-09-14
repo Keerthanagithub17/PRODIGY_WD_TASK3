@@ -1,0 +1,91 @@
+# Tic-Tac-Toe Web Application 🎮
+
+A modern and interactive **Tic-Tac-Toe Web Application** developed as **Task 3** of the **Web Development Internship at Prodigy Infotech**.
+
+This project allows two players to play Tic-Tac-Toe interactively in the browser. The application manages player turns, tracks the game state, detects winning combinations, and provides a restart option for a smooth gameplay experience.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Website:** https://keerthanagithub17.github.io/PRODIGY_WD_TASK3/
+
+---
+
+## 📌 Internship Task
+
+**Internship:** Web Development Internship
+**Organization:** Prodigy Infotech
+**Task:** Task 3 - Tic-Tac-Toe Web Application
+
+### Task Objective
+
+Create an interactive Tic-Tac-Toe web application that handles user clicks, manages the game state, checks for winning conditions, and allows players to restart the game.
+
+The application can support two-player gameplay and demonstrates JavaScript logic for managing interactive user interfaces.
+
+---
+
+## ✨ Features
+
+* Interactive Tic-Tac-Toe gameplay
+* Two-player game mode
+* Player X and Player O turns
+* Click-based game interaction
+* Game state management
+* Winning combination detection
+* Draw detection
+* Game status display
+* Restart game functionality
+* Responsive user interface
+* Smooth and visually appealing design
+* Works directly in modern web browsers
+
+---
+
+## 🎮 How the Game Works
+
+1. The game starts with **Player X**.
+2. Players take turns clicking an empty cell.
+3. Player X and Player O alternate after each valid move.
+4. The application continuously checks for winning combinations.
+5. A player wins by placing three matching symbols in:
+
+   * A horizontal row
+   * A vertical column
+   * A diagonal line
+6. If all cells are filled and no player wins, the game ends in a draw.
+7. Players can restart the game and play again.
+
+---
+
+## 🧠 Winning Conditions
+
+The game checks the following winning combinations:
+
+```text id="6nzn4z"
+[0, 1, 2]
+[3, 4, 5]
+[6, 7, 8]
+
+[0, 3, 6]
+[1, 4, 7]
+[2, 5, 8]
+
+[0, 4, 8]
+[2, 4, 6]
+```
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+
+### Tools
+
+* Visual Studio Co
